@@ -15,7 +15,11 @@
 .container {
     max-width: 1080px;
     margin: auto;
-    padding: 0 50px;
+    padding: 100px 50px;
+}
+
+.subscriptions-container {
+    padding: 20px 15px;
 }
 
 .clearfix::after {
@@ -49,7 +53,19 @@ body {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+span {
+    display: inline-block;
 }
 
 /* HEADER */
@@ -133,7 +149,6 @@ nav ul li a {
 
 .section-col-left span {
     margin-top: 10px;
-    display: inline-block;
     font-size: 12px;
 }
 
@@ -141,4 +156,57 @@ nav ul li a {
     margin-top: 40px;
     font-size: 25px;
 }
+
+/* SEZIONE ABBONAMENTI */
+.input {
+    margin-top: 40px;
+}
+
+#annuale {
+    margin-left: 10px;
+}
+
+.subscriptions-row {
+    margin-top: 20px;
+}
+
+.subscriptions-col-left, .subscriptions-col-middle, .subscriptions-col-right {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    border: 1px solid lightgray;
+    min-height: 700px;
+}
+
+.subscriptions-col-left > span {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.member {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.member span {
+    padding: 5px;
+}
+
+.subscriptions-price {
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.subscription-period {
+    color: #667683;
+}
+
+.subscription-functions {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+
+
 /* FOOTER */
