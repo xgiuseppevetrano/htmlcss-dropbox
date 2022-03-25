@@ -46,6 +46,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 75px;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -54,12 +58,16 @@ header {
     padding: 1em;
 }
 
+.col-left, .col-right {
+    width: calc(100% / 2 - 4px);
+}
+
 nav, .col-left img, .col-right button {
     vertical-align: middle;
 }
 
 .col-left img {
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
 .col-left, .col-right, nav, nav ul li {
@@ -70,10 +78,7 @@ nav ul li a {
     text-decoration: none;
     color: #000;
     margin-right: 20px;
-}
-
-.col-left, .col-right {
-    max-width: calc(100% / 2);
+    font-weight: 500;
 }
 
 .col-right {
@@ -89,5 +94,49 @@ nav ul li a {
 }
 
 /* MAIN */
+/* SEZIONE HERO */
+.hero {
+    background-color: #b4d0e7;
+}
 
+.hero .container-large {
+    padding-top: 120px;
+}
+
+.hero-row {
+    position: relative;
+    bottom: -50px;
+}
+
+.section-col-left, .section-col-right {
+    float: left;
+}
+
+.section-col-left {
+    max-width: 30%;
+}
+
+.section-col-right {
+    max-width: 70%;
+    float: right;
+}
+
+.section-col-right img {
+    height: 400px;
+}
+
+.btn-hero {
+    margin-top: 30px;
+}
+
+.section-col-left span {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.section-col-left i {
+    margin-top: 40px;
+    font-size: 25px;
+}
 /* FOOTER */
