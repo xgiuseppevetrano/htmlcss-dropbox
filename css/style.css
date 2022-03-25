@@ -24,7 +24,7 @@
 
 /* BUTTONS */
 .btn {
-    padding: 10px;
+    padding: 5px 13px;
     background-color: #0061ff;
     color: #fff;
     border: none;
@@ -47,6 +47,46 @@ body {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 1em;
+}
+
+nav, .col-left img, .col-right button {
+    vertical-align: middle;
+}
+
+.col-left img {
+    margin-right: 35px;
+}
+
+.col-left, .col-right, nav, nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+
+.col-left, .col-right {
+    max-width: calc(100% / 2);
+}
+
+.col-right {
+    text-align: right;
+}
+
+.col-right button {
+    margin-left: 25px;
+}
+
+.col-right nav ul li a {
+    margin-left: 20px;
+}
 
 /* MAIN */
 
