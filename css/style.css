@@ -9,11 +9,13 @@
 .container-large {
     max-width: 1300px;
     margin: auto;
+    padding: 0 50px;
 }
 
 .container {
     max-width: 1080px;
     margin: auto;
+    padding: 0 50px;
 }
 
 .clearfix::after {
@@ -113,11 +115,11 @@ nav ul li a {
 }
 
 .section-col-left {
-    max-width: 30%;
+    max-width: 33%;
 }
 
 .section-col-right {
-    max-width: 70%;
+    max-width: 67%;
     float: right;
 }
 
