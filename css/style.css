@@ -278,6 +278,22 @@ nav ul li a {
 }
 
 /* SEZIONE FUNZIONAMENTO DROPBOX */
+.functions-row {
+    margin-top: 25px;
+}
 
+.functions-col {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+}
+
+.functions-col h3, .functions-col p {
+    margin-top: 20px;
+}
+
+.functions-col img {
+    height: 230px;
+}
 
 /* FOOTER */
