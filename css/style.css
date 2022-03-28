@@ -426,5 +426,41 @@ nav ul li a {
    right: 30px;
 }
 
-
 /* FOOTER */
+footer {
+    background-color: black;
+    color: #fff;
+}
+
+.footer {
+    padding-top: 70px;
+}
+
+.footer-col ul li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-col {
+    float: left;
+    width: calc(100% / 5);
+}
+
+.footer-col h4 {
+    padding-bottom: 20px;
+}
+
+.footer hr {
+    max-width: 100px;
+    margin: 40px 0;
+}
+
+.language {
+    color: lightgray;
+    padding-bottom: 20px;
+}
