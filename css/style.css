@@ -307,12 +307,12 @@ nav ul li a {
 
 .clients-col-left, .clients-col-right {
     float: left;
-    width: 25%;
-    background-color: red;
+    width: 25vw;
 }
 
 .clients-col-middle {
-    width: calc(100% - 50%);
+    float: left;
+    width: 50vw;
     background-color: #f6f6f6;
     padding: 40px 30px;
 }
@@ -330,4 +330,55 @@ nav ul li a {
 .clients-col-middle p {
     padding: 25px 0;
 }
+
+.square {
+    width: 12.5vw;
+    height: 12.5vh;
+    float: left;
+    position: relative;
+}
+
+.square img {
+    filter: invert(100%);
+    width: 6vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designit {
+    background-color: #a3d49c;
+}
+
+.arizona {
+    background-color: #63072c;
+}
+
+.florida {
+    background-color: #0393cf;
+}
+
+.topps {
+    background-color: #fe1c1e;
+}
+
+.bicycle {
+    background-color: #d50020;
+}
+
+.hearst {
+    background-color: #0e2582;
+}
+
+.lonely {
+    background-color: #b4d0e6;
+}
+
+.channel {
+    background-color: #ffd930;
+}
+
+
+
 /* FOOTER */
