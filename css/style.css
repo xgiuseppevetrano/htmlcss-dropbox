@@ -128,20 +128,20 @@ nav ul li a {
     bottom: -50px;
 }
 
-.section-col-left, .section-col-right {
+.hero-col-left, .hero-col-right {
     float: left;
 }
 
-.section-col-left {
+.hero-col-left {
     max-width: 33%;
 }
 
-.section-col-right {
+.hero-col-right {
     max-width: 67%;
     float: right;
 }
 
-.section-col-right img {
+.hero-col-right img {
     height: 400px;
 }
 
@@ -149,12 +149,12 @@ nav ul li a {
     margin-top: 30px;
 }
 
-.section-col-left span {
+.hero-col-left span {
     margin-top: 10px;
     font-size: 12px;
 }
 
-.section-col-left i {
+.hero-col-left i {
     margin-top: 40px;
     font-size: 25px;
 }
@@ -254,5 +254,30 @@ nav ul li a {
     margin-top: 25px;
     font-size: 14px;
 }
+
+/* SEZIONE TROVA PARTNER */
+.partner-col-left, .partner-col-right {
+    float: left;
+}
+
+.partner-col-left {
+    width: 60%;
+}
+
+.partner-col-left img {
+    height: 450px;
+}
+
+.partner-col-right {
+    width: 40%;
+    margin-top: 25px;
+}
+
+.partner-col-right p, .partner-col-right button {
+    margin-top: 20px;
+}
+
+/* SEZIONE FUNZIONAMENTO DROPBOX */
+
 
 /* FOOTER */
