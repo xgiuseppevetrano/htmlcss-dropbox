@@ -302,17 +302,19 @@ nav ul li a {
 }
 
 .clients {
-    width: 100%;
+    width: 100vw;
 }
 
 .clients-col-left, .clients-col-right {
     float: left;
     width: 25vw;
+    height: 25vw;
 }
 
 .clients-col-middle {
     float: left;
-    width: 50vw;
+    width: calc(100% - 50vw);
+    height: 25vw;
     background-color: #f6f6f6;
     padding: 40px 30px;
 }
@@ -333,14 +335,14 @@ nav ul li a {
 
 .square {
     width: 12.5vw;
-    height: 12.5vh;
+    height: 12.5vw;
     float: left;
     position: relative;
 }
 
 .square img {
     filter: invert(100%);
-    width: 6vw;
+    width: 6.125vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -349,6 +351,7 @@ nav ul li a {
 
 .designit {
     background-color: #a3d49c;
+    box-shadow: 5px solid #d0e9cc;
 }
 
 .arizona {
