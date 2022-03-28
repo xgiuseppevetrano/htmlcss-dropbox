@@ -221,7 +221,6 @@ nav ul li a {
 
 .subscriptions-container hr {
     max-width: 40px;
-    color: lightgray;
     margin: 24px 0;
     background-color: lightgray;
 }
@@ -296,4 +295,39 @@ nav ul li a {
     height: 230px;
 }
 
+/* SEZIONE CLIENTI IMPORTANTI */
+.discover-clients {
+    padding: 25px 0;
+    display: inline-block;
+}
+
+.clients {
+    width: 100%;
+}
+
+.clients-col-left, .clients-col-right {
+    float: left;
+    width: 25%;
+    background-color: red;
+}
+
+.clients-col-middle {
+    width: calc(100% - 50%);
+    background-color: #f6f6f6;
+    padding: 40px 30px;
+}
+
+.clients-col-middle img {
+    height: 40px;
+}
+
+.clients-col-middle hr {
+    margin: 15px 0;
+    background-color: lightgray;
+    max-width: 60px;
+}
+
+.clients-col-middle p {
+    padding: 25px 0;
+}
 /* FOOTER */
