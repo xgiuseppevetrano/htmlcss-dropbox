@@ -351,7 +351,7 @@ nav ul li a {
 
 .designit {
     background-color: #a3d49c;
-    box-shadow: 5px solid #d0e9cc;
+    box-shadow: 10px 10px #cdebc9 inset ;
 }
 
 .arizona {
@@ -371,17 +371,37 @@ nav ul li a {
 }
 
 .hearst {
-    background-color: #0e2582;
+    background-color: #b4d0e6;
 }
 
 .lonely {
-    background-color: #b4d0e6;
+    background-color: #0e2582;
 }
 
 .channel {
     background-color: #ffd930;
 }
 
+/* SEZIONE PROVA GRATUITA */
+.free-trial {
+    background-color: #b4d0e6;
+    width: 100vw;
+}
 
+.free-trial-info {
+    position: relative;
+}
 
+.free-trial-info h2 {
+    color: #5b0522;
+}
+
+.free-trial-info button {
+    border: none;
+    background-color: white;
+    color: #000;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
 /* FOOTER */
