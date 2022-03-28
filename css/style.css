@@ -69,6 +69,10 @@ span {
     display: inline-block;
 }
 
+hr {
+    background-color: lightgray;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -222,7 +226,6 @@ nav ul li a {
 .subscriptions-container hr {
     max-width: 40px;
     margin: 24px 0;
-    background-color: lightgray;
 }
 
 .subscriptions-info i {
@@ -325,7 +328,6 @@ nav ul li a {
 
 .clients-col-middle hr {
     margin: 15px 0;
-    background-color: lightgray;
     max-width: 60px;
 }
 
@@ -404,4 +406,25 @@ nav ul li a {
     top: 80px;
     right: 50px;
 }
+
+/* SEZIONE FAQ */
+.faq {
+    line-height: 60px;
+}
+
+.faq h3 {
+    padding-bottom: 20px;
+}
+
+.faq-text {
+    position: relative;
+}
+
+.faq i {
+   position: absolute;
+   top: 25px;
+   right: 30px;
+}
+
+
 /* FOOTER */
