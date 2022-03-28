@@ -44,7 +44,8 @@
 }
 
 .btn.btn-large {
-    padding: 10px 20px;
+    margin: 16px 0;
+    padding: 5px 40px;
 }
 
 /* TYPO */
@@ -171,17 +172,24 @@ nav ul li a {
     margin-top: 20px;
 }
 
+.subscriptions-row ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.subscriptions-row ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 20px;
+    text-indent: -9px;
+}
+
 .subscriptions-col-left, .subscriptions-col-middle, .subscriptions-col-right {
     float: left;
     width: calc(100% / 3 - 40px);
     margin: 20px;
     border: 1px solid lightgray;
-    min-height: 850px;
-}
-
-.subscriptions-col-left > span {
-    padding-top: 16px;
-    text-align: center;
+    min-height: 900px;
 }
 
 .member {
@@ -207,14 +215,8 @@ nav ul li a {
     margin: 25px 0;
 }
 
-.subscription-functions span, .subscriptions-container span {
-    margin-top: 16px;
-    font-size: 13px;
-}
-
-.subscriptions-container button {
-    margin: 16px 0;
-    padding: 5px 40px;
+.buy-link {
+    font-size: 12px;
 }
 
 .subscriptions-container hr {
@@ -232,4 +234,25 @@ nav ul li a {
     margin-top: 20px;
     border: 1px solid lightgray;
 }
+
+.enterprise-info {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.enterprise-info button {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.enterprise-info h4 {
+    margin-top: 15px;
+}
+
+.enterprise-info span {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
 /* FOOTER */
