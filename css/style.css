@@ -354,7 +354,6 @@ nav ul li a {
 
 .designit {
     background-color: #a3d49c;
-    box-shadow: inset 0 0 0 10px #cdebc9;
 }
 
 .arizona {
@@ -463,4 +462,53 @@ footer {
 .language {
     color: lightgray;
     padding-bottom: 20px;
+}
+
+/* EFFETTI E ANIMAZIONI */
+.subscriptions-col-left:hover, .subscriptions-col-middle:hover, .subscriptions-col-right:hover, .enterprise:hover {
+    border: 2px solid black;
+}
+
+.subscriptions-col-left:hover .member, .subscriptions-col-middle:hover .member, .subscriptions-col-right:hover .member, .enterprise:hover .member{
+    border-bottom: 2px solid black;
+}
+
+.functions-col:hover {
+    transform: scale(1.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.designit:hover {
+    box-shadow: inset 0 0 0 10px #cdebc9;
+}
+
+.arizona:hover {
+    box-shadow: inset 0 0 0 10px #9e0c45;
+}
+
+.florida:hover {
+    box-shadow: inset 0 0 0 10px #01b6ff;
+}
+
+.topps:hover {
+    box-shadow: inset 0 0 0 10px #fc5757;
+}
+
+.bicycle:hover {
+    box-shadow: inset 0 0 0 10px #f40024;
+}
+
+.hearst:hover {
+    box-shadow: inset 0 0 0 10px #d3dfe9;
+}
+
+.lonely:hover {
+    box-shadow: inset 0 0 0 10px #102ea9;
+}
+
+.channel:hover {
+    box-shadow: inset 0 0 0 10px #fae173;
 }
