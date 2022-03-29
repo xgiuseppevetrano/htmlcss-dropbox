@@ -146,7 +146,8 @@ nav ul li a {
 }
 
 .hero-col-right img {
-    height: 400px;
+    max-height: 400px;
+    max-width: 100%;
 }
 
 .btn-hero {
@@ -191,9 +192,12 @@ nav ul li a {
 .subscriptions-col-left, .subscriptions-col-middle, .subscriptions-col-right {
     float: left;
     width: calc(100% / 3 - 40px);
-    margin: 20px;
     border: 1px solid lightgray;
     min-height: 900px;
+}
+
+.subscriptions-col-middle {
+    margin: 0 60px;
 }
 
 .member {
@@ -304,10 +308,6 @@ nav ul li a {
     display: inline-block;
 }
 
-.clients {
-    width: 100vw;
-}
-
 .clients-col-left, .clients-col-right {
     float: left;
     width: 25vw;
@@ -320,6 +320,7 @@ nav ul li a {
     height: 25vw;
     background-color: #f6f6f6;
     padding: 40px 30px;
+    overflow: auto;
 }
 
 .clients-col-middle img {
@@ -353,7 +354,7 @@ nav ul li a {
 
 .designit {
     background-color: #a3d49c;
-    box-shadow: 10px 10px #cdebc9 inset ;
+    box-shadow: inset 0 0 0 10px #cdebc9;
 }
 
 .arizona {
@@ -387,7 +388,6 @@ nav ul li a {
 /* SEZIONE PROVA GRATUITA */
 .free-trial {
     background-color: #b4d0e6;
-    width: 100vw;
 }
 
 .free-trial-info {
