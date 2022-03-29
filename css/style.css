@@ -30,7 +30,7 @@
 
 /* BUTTONS */
 .btn {
-    padding: 5px 13px;
+    padding: 5px 16px;
     background-color: #0061ff;
     color: #fff;
     border: none;
@@ -45,7 +45,7 @@
 
 .btn.btn-large {
     margin: 16px 0;
-    padding: 5px 40px;
+    padding: 7px 42px;
 }
 
 /* TYPO */
@@ -54,15 +54,15 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 1.3em;
 }
 
 span {
@@ -71,6 +71,10 @@ span {
 
 hr {
     background-color: lightgray;
+}
+
+ul li {
+    list-style-type: none;
 }
 
 /* HEADER */
@@ -90,10 +94,6 @@ nav, .col-left img, .col-right button {
     vertical-align: middle;
 }
 
-.col-left img {
-    margin-right: 25px;
-}
-
 .col-left, .col-right, nav, nav ul li {
     display: inline-block;
 }
@@ -101,22 +101,14 @@ nav, .col-left img, .col-right button {
 nav ul li a {
     text-decoration: none;
     color: #000;
-    margin-right: 20px;
+    margin: 20px;
     font-weight: 500;
 }
 
 .col-right {
     text-align: right;
 }
-
-.col-right button {
-    margin-left: 25px;
-}
-
-.col-right nav ul li a {
-    margin-left: 20px;
-}
-
+ 
 /* MAIN */
 /* SEZIONE HERO */
 .hero {
@@ -137,20 +129,20 @@ nav ul li a {
 }
 
 .hero-col-left {
-    max-width: 33%;
+    max-width: calc(100% / 3);
 }
 
 .hero-col-right {
-    max-width: 67%;
+    max-width: calc(100% / 3 * 2);
     float: right;
 }
 
-.hero-col-right img {
+.hero-img {
     max-height: 400px;
     max-width: 100%;
 }
 
-.btn-hero {
+.hero-btn {
     margin-top: 30px;
 }
 
@@ -170,7 +162,7 @@ nav ul li a {
 }
 
 #annuale {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .subscriptions-row {
@@ -183,7 +175,6 @@ nav ul li a {
 }
 
 .subscriptions-row ul li {
-    list-style-type: none;
     font-size: 14px;
     margin-top: 20px;
     text-indent: -9px;
@@ -304,7 +295,7 @@ nav ul li a {
 
 /* SEZIONE CLIENTI IMPORTANTI */
 .discover-clients {
-    padding: 25px 0;
+    margin: 25px 0;
     display: inline-block;
 }
 
@@ -333,7 +324,7 @@ nav ul li a {
 }
 
 .clients-col-middle p {
-    padding: 25px 0;
+    margin: 25px 0;
 }
 
 .square {
@@ -397,10 +388,8 @@ nav ul li a {
     color: #5b0522;
 }
 
-.free-trial-info button {
+.free-trial-info .btn {
     border: none;
-    background-color: white;
-    color: #000;
     position: absolute;
     top: 80px;
     right: 50px;
@@ -412,7 +401,7 @@ nav ul li a {
 }
 
 .faq h3 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .faq-text {
@@ -435,14 +424,10 @@ footer {
     padding-top: 70px;
 }
 
-.footer-col ul li {
-    list-style-type: none;
-    line-height: 30px;
-}
-
 .footer ul li a {
     text-decoration: none;
     color: #fff;
+    line-height: 30px;
 }
 
 .footer-col {
@@ -451,7 +436,7 @@ footer {
 }
 
 .footer-col h4 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer hr {
