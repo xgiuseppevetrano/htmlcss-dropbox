@@ -7,19 +7,19 @@
 
 /* COMMONS */
 .container-large {
-    max-width: 1300px;
+    max-width: 81.25rem;
     margin: auto;
-    padding: 0 50px;
+    padding: 0 3.125rem;
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 67.5rem;
     margin: auto;
-    padding: 100px 50px;
+    padding: 6.25rem 3.125rem;
 }
 
 .subscriptions-container {
-    padding: 20px 24px;
+    padding: 1.25rem 1.5rem;
 }
 
 .clearfix::after {
@@ -30,7 +30,7 @@
 
 /* BUTTONS */
 .btn {
-    padding: 5px 16px;
+    padding: .3125rem 1rem;
     background-color: #0061ff;
     color: #fff;
     border: none;
@@ -40,12 +40,12 @@
 .btn.btn-white {
     background-color: #fff;
     color: #000;
-    border: 1px solid black;
+    border: .0625rem solid black;
 }
 
 .btn.btn-large {
-    margin: 16px 0;
-    padding: 7px 42px;
+    margin: 1rem 0;
+    padding: .4375rem 2.625rem;
 }
 
 /* TYPO */
@@ -87,7 +87,7 @@ header {
 }
 
 .col-left, .col-right {
-    width: calc(100% / 2 - 4px);
+    width: calc(100% / 2 - .25rem);
 }
 
 nav, .col-left img, .col-right button {
@@ -101,7 +101,7 @@ nav, .col-left img, .col-right button {
 nav ul li a {
     text-decoration: none;
     color: #000;
-    margin: 20px;
+    margin: 1.25rem;
     font-weight: 500;
 }
 
@@ -116,12 +116,12 @@ nav ul li a {
 }
 
 .hero .container-large {
-    padding-top: 120px;
+    padding-top: 7.5rem;
 }
 
 .hero-row {
     position: relative;
-    bottom: -50px;
+    bottom: -3.125rem;
 }
 
 .hero-col-left, .hero-col-right {
@@ -138,72 +138,72 @@ nav ul li a {
 }
 
 .hero-img {
-    max-height: 400px;
+    max-height: 25rem;
     max-width: 100%;
 }
 
 .hero-btn {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .hero-col-left span {
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: .625rem;
+    font-size: .75rem;
 }
 
 .hero-col-left i {
-    margin-top: 40px;
-    font-size: 25px;
+    margin-top: 2.5rem;
+    font-size: 1.5625rem;
 }
 
 /* SEZIONE ABBONAMENTI */
 .input {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 #annuale {
-    margin-left: 15px;
+    margin-left: .9375rem;
 }
 
 .subscriptions-row {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .subscriptions-row ul {
-    margin-top: 15px;
-    padding-left: 20px;
+    margin-top: .9375rem;
+    padding-left: 1.25rem;
 }
 
 .subscriptions-row ul li {
-    font-size: 14px;
-    margin-top: 20px;
-    text-indent: -9px;
+    font-size: .875rem;
+    margin-top: 1.25rem;
+    text-indent: -0.5625rem;
 }
 
 .subscriptions-col-left, .subscriptions-col-middle, .subscriptions-col-right {
     float: left;
-    width: calc(100% / 3 - 40px);
-    border: 1px solid lightgray;
-    min-height: 900px;
+    width: calc(100% / 3 - 2.5rem);
+    border: .0625rem solid lightgray;
+    min-height: 56.25rem;
 }
 
 .subscriptions-col-middle {
-    margin: 0 60px;
+    margin: 0 3.75rem;
 }
 
 .member {
-    border-bottom: 1px solid lightgray;
+    border-bottom: .0625rem solid lightgray;
     text-align: center;
 }
 
 .member span {
-    padding: 5px;
+    padding: .3125rem;
 }
 
 .subscriptions-price {
     font-weight: bold;
-    margin-top: 12px;
-    margin-bottom: 5px;
+    margin-top: .75rem;
+    margin-bottom: .3125rem;
 }
 
 .subscription-period {
@@ -211,16 +211,16 @@ nav ul li a {
 }
 
 .subscription-functions {
-    margin: 25px 0;
+    margin: 1.5625rem 0;
 }
 
 .buy-link {
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .subscriptions-container hr {
-    max-width: 40px;
-    margin: 24px 0;
+    max-width: 2.5rem;
+    margin: 1.5rem 0;
 }
 
 .subscriptions-info i {
@@ -228,28 +228,28 @@ nav ul li a {
 }
 
 .enterprise {
-    margin-top: 20px;
-    border: 1px solid lightgray;
+    margin-top: 1.25rem;
+    border: .0625rem solid lightgray;
 }
 
 .enterprise-info {
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     position: relative;
 }
 
 .enterprise-info button {
     position: absolute;
-    top: 16px;
-    right: 20px;
+    top: 1rem;
+    right: 1.25rem;
 }
 
 .enterprise-info h4 {
-    margin-top: 15px;
+    margin-top: .9375rem;
 }
 
 .enterprise-info span {
-    margin-top: 25px;
-    font-size: 14px;
+    margin-top: 1.5625rem;
+    font-size: .875rem;
 }
 
 /* SEZIONE TROVA PARTNER */
@@ -262,40 +262,40 @@ nav ul li a {
 }
 
 .partner-col-left img {
-    height: 450px;
+    height: 28.125rem;
 }
 
 .partner-col-right {
     width: 40%;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 
 .partner-col-right p, .partner-col-right button {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* SEZIONE FUNZIONAMENTO DROPBOX */
 .functions-row {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 
 .functions-col {
     float: left;
-    width: calc(100% / 3 - 40px);
-    margin: 20px;
+    width: calc(100% / 3 - 2.5rem);
+    margin: 1.25rem;
 }
 
 .functions-col h3, .functions-col p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .functions-col img {
-    height: 230px;
+    height: 14.375rem;
 }
 
 /* SEZIONE CLIENTI IMPORTANTI */
 .discover-clients {
-    margin: 25px 0;
+    margin: 1.5625rem 0;
     display: inline-block;
 }
 
@@ -310,21 +310,21 @@ nav ul li a {
     width: calc(100% - 50vw);
     height: 25vw;
     background-color: #f6f6f6;
-    padding: 40px 30px;
+    padding: 2.5rem 1.875rem;
     overflow: auto;
 }
 
 .clients-col-middle img {
-    height: 40px;
+    height: 2.5rem;
 }
 
 .clients-col-middle hr {
-    margin: 15px 0;
-    max-width: 60px;
+    margin: .9375rem 0;
+    max-width: 3.75rem;
 }
 
 .clients-col-middle p {
-    margin: 25px 0;
+    margin: 1.5625rem 0;
 }
 
 .square {
@@ -391,17 +391,17 @@ nav ul li a {
 .free-trial-info .btn {
     border: none;
     position: absolute;
-    top: 80px;
-    right: 50px;
+    top: 5rem;
+    right: 3.125rem;
 }
 
 /* SEZIONE FAQ */
 .faq {
-    line-height: 60px;
+    line-height: 3.75rem;
 }
 
 .faq h3 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .faq-text {
@@ -410,8 +410,8 @@ nav ul li a {
 
 .faq i {
    position: absolute;
-   top: 25px;
-   right: 30px;
+   top: 1.5625rem;
+   right: 1.875rem;
 }
 
 /* FOOTER */
@@ -421,13 +421,13 @@ footer {
 }
 
 .footer {
-    padding-top: 70px;
+    padding-top: 4.375rem;
 }
 
 .footer ul li a {
     text-decoration: none;
     color: #fff;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .footer-col {
@@ -436,26 +436,26 @@ footer {
 }
 
 .footer-col h4 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .footer hr {
-    max-width: 100px;
-    margin: 40px 0;
+    max-width: 6.25rem;
+    margin: 2.5rem 0;
 }
 
 .language {
     color: lightgray;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 /* EFFETTI E ANIMAZIONI */
 .subscriptions-col-left:hover, .subscriptions-col-middle:hover, .subscriptions-col-right:hover, .enterprise:hover {
-    border: 2px solid black;
+    border: .125rem solid black;
 }
 
 .subscriptions-col-left:hover .member, .subscriptions-col-middle:hover .member, .subscriptions-col-right:hover .member, .enterprise:hover .member{
-    border-bottom: 2px solid black;
+    border-bottom: .125rem solid black;
 }
 
 .functions-col:hover {
@@ -467,33 +467,33 @@ button:hover {
 }
 
 .designit:hover {
-    box-shadow: inset 0 0 0 10px #cdebc9;
+    box-shadow: inset 0 0 0 .625rem #cdebc9;
 }
 
 .arizona:hover {
-    box-shadow: inset 0 0 0 10px #9e0c45;
+    box-shadow: inset 0 0 0 .625rem #9e0c45;
 }
 
 .florida:hover {
-    box-shadow: inset 0 0 0 10px #01b6ff;
+    box-shadow: inset 0 0 0 .625rem #01b6ff;
 }
 
 .topps:hover {
-    box-shadow: inset 0 0 0 10px #fc5757;
+    box-shadow: inset 0 0 0 .625rem #fc5757;
 }
 
 .bicycle:hover {
-    box-shadow: inset 0 0 0 10px #f40024;
+    box-shadow: inset 0 0 0 .625rem #f40024;
 }
 
 .hearst:hover {
-    box-shadow: inset 0 0 0 10px #d3dfe9;
+    box-shadow: inset 0 0 0 .625rem #d3dfe9;
 }
 
 .lonely:hover {
-    box-shadow: inset 0 0 0 10px #102ea9;
+    box-shadow: inset 0 0 0 .625rem #102ea9;
 }
 
 .channel:hover {
-    box-shadow: inset 0 0 0 10px #fae173;
+    box-shadow: inset 0 0 0 .625rem #fae173;
 }
